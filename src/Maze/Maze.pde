@@ -1,4 +1,4 @@
-final static int SIZE = 20;
+final static int SIZE = 240;
 int cols, rows;
 ArrayList<Cell> grid;
 ArrayList<Cell> stack;
@@ -6,8 +6,8 @@ Cell current;
 
 
 void setup() {
-  size(1000, 500);
-  //fullScreen();
+  //size(1000, 500);
+  fullScreen();
   
   cols = floor(width/SIZE) - 2;
   rows = floor(height/SIZE) - 2;
